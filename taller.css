@@ -35,8 +35,31 @@
 }
 */
 .image-container{
-  display: inline-block;
-  width: 450px;
-  height:300px;
+ width: 450px;
+align-items:center;
+display:-webkit-flex;
+	display: -ms-flexbox;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  align-self: flex-start;
+ flex-flow: nowrap;
+ flex-wrap: wrap;
 
+}
+
+
+.services-container{
+
+  width: 850px;
+  display: inline-block;
+}
+
+.Designers {
+  width: 450px;
+ align-items:center;
+ display:-webkit-flex;
+ 	display: flex;
+flex-direction: row;
+   -webkit-flex-direction: row;
 }
